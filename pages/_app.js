@@ -2,7 +2,7 @@ import Router, { useRouter } from "next/router";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import LoadingBar from "react-top-loading-bar";
-import "../styles/globals.css";
+import '@/styles/globals.css';
 import { useState, useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
